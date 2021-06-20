@@ -12,7 +12,7 @@ namespace Week3Question1
             */
             int[] array = new int[10];
             int i;
-            for (i = 0; i < array.Length; i++)
+            for (i = 0; i < 10; i++)
             {
                 Console.WriteLine("Enter a array" + i);
                 array[i] = Convert.ToInt32(Console.ReadLine());
